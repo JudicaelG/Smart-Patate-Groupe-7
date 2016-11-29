@@ -111,8 +111,8 @@ void loop()
     noTone(11);
     if(results[58]>600){off();}
     else if(results[58]<280 && results[97]<260 && results[127]<220){action(1);}
-    else if(results[97]>280 && results[58]<400 && results[120]< 230){action(2);}
-    else if(results[58]<130 && results[120]>= 230){action(3);}
+    else if(results[58]<400 && results[97]>280 && results[120]< 250){action(2);}
+    else if(results[58]<130 && results[120]>= 250){action(3);}
     else if(results[53]>444){action(4);}
 
 //PlottArray(1,freq,results);
